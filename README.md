@@ -30,7 +30,7 @@ What the principle has actually done
 
 ## Authentication in Rails
 
-We'll build a rails api with token based authentiation using rails built features.
+We'll build a rails api with token based authentiation using rails built-in features.
 
 - http://api.rubyonrails.org/classes/ActiveModel/SecurePassword.html
 - http://api.rubyonrails.org/classes/ActionController/HttpAuthentication/Token.html
