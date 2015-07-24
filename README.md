@@ -6,7 +6,7 @@
 
 By the end of this lesson, students should be able to:
 
-- Use authentication to secure a rails based web API
+- Use token authentication to secure a rails based web API
 
 ## Introduction
 
