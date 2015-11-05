@@ -8,29 +8,26 @@ By the end of this lesson, students should be able to:
 
 - Use token authentication to secure a rails based web API
 
+## Prerequisites
+
+Required reading
+
+- http://api.rubyonrails.org/classes/ActiveModel/SecurePassword.html
+- http://api.rubyonrails.org/classes/ActionController/HttpAuthentication/Token.html
+
 ## Introduction
 
 Effective security is broken down into three areas:
 
-- Authentication
-- Authorization
-- Auditing
+- **Authentication** - Who (or what) is accessing a resource (the principle).
+- **Authorization** - What the principle has access to.
+- **Auditing** - What the principle has actually done.
 
-### Authentication
+We'll focus primarily on authentication and touch on the simplest of authorization schemes.
 
-Who (or what) is accessing a resource (the principle).
-
-### Authorization
-
-What the principle has access to.
-
-### Auditing
-
-What the principle has actually done
+What's important about each of these areas?
 
 ## Authentication in Rails
 
-We'll build a rails api with token based authentiation using rails built-in features.
+We'll exam a pre-built rails api with token based authentication implemented using rails built-in features.
 
-- http://api.rubyonrails.org/classes/ActiveModel/SecurePassword.html
-- http://api.rubyonrails.org/classes/ActionController/HttpAuthentication/Token.html
